@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="font/flaticon.css">
+
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Berkshire+Swash&family=Courgette&family=Hind+Madurai&family=Kaushan+Script&family=Philosopher:ital@1&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- fonts -->
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+
+    <nav id="navbar" class="navbar-fixed white">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons menu">widgets</i></a>
+                <a href="#" class="brand-logo">Tastng</a>
+                <a href="#" data-target="location-demo" class="location-trigger"><i class="material-icons location right">person_pin_circle</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down navs">
+                    <li><a href="">Breakfast</a></li>
+                    <li><a href="">Lunch</a></li>
+                    <li><a href="">Dinner</a></li>
+                    <li><a href="">groceries</a></li>
+                    <li><a href="">fruits</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="">Breakfast</a></li>
+        <li><a href="">Lunch</a></li>
+        <li><a href="">Dinner</a></li>
+        <li><a href="">groceries</a></li>
+        <li><a href="">fruits</a></li>
+    </ul>
+
+    <div class="section">
+        <div class="aboutMeCarousel carousel carousel-slider center">
+
+
+            <div class="carousel-item white-text" href="#one!">
+                <img src="/images/Slider_01.jpg" alt="">
+                <h2>First Panel</h2>
+                <p class="red-text">This is your first panel</p>
+            </div>
+            <div class="carousel-item white-text" href="#two!">
+                <img src="/images/Slider_02.jpg" alt="">
+                <h2>Second Panel</h2>
+                <p class="white-text">This is your second panel</p>
+            </div>
+            <div class="carousel-item white-text" href="#three!">
+                <img src="/images/Slider_03.jpg" alt="">
+                <h2>Third Panel</h2>
+                <p class="white-text">This is your third panel</p>
+            </div>
+            <div class="carousel-item white-text" href="#four!">
+                <img src="/images/Slider_04.jpg" alt="">
+                <h2>Fourth Panel</h2>
+                <p class="white-text">This is your fourth panel</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div>
+                <!-- <h4>Hi, Verna</h4> -->
+                <!-- <div class="row">
+                    <div class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">search</i>
+                                <input type="text" id="autocomplete-input" class="autocomplete" onchange="sendItem(this.value)">
+                                <label for="autocomplete-input">Search..</label>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <h6>What'd you like to eat today?</h6>
+            </div>
+            <div class="row scroll">
+                <div class="col s4 m6 firstCard">
+                    <div class="card ">
+                        <div class="card-body center-align">
+
+                            <img src="/png/001-fast-food.png" alt=""><span>fastfood</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col s4 m6 firstCard">
+                    <div class="card ">
+                        <div class="card-body center-align">
+
+                            <img src="/png/012-lunch-bag.png" alt=""> <span>lunch</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col s4 m6 firstCard">
+                    <div class="card ">
+                        <div class="card-body center-align">
+
+                            <img src="/png/015-snack.png" alt=""><span>snacks</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col s4 m6 firstCard">
+                    <div class="card ">
+                        <div class="card-body center-align">
+
+                            <img src="/png/009-fish-1.png" alt=""><span>Fish</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col s4 m6 firstCard">
+                    <div class="card ">
+                        <div class="card-body center-align">
+
+                            <img src="/png/005-fried-rice-1.png" alt=""><span>Fried rice</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col s4 m6 firstCard">
+                    <div class="card ">
+                        <div class="card-body center-align">
+
+                            <img src="/png/013-omelette.png" alt=""><span>Dinner</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container-fluid orange">
+            <div>
+                <h5 class="center">Recommended</h5>
+            </div>
+            <div class="row scroll">
+                <div class="col s7 l3">
+                    <div class="card new">
+                        <div class="card-image newimg">
+                            <img src="/images/brooke-lark-HjWzkqW1dgI-unsplash.jpg">
+
+                        </div>
+                        <div class="act">
+                            <div class="card-action">
+                                <p class="break truncate">Fresh Juice </p>
+                            </div>
+                            <div class="card-footer">
+                                <div>
+                                    <p class="">$250/kg</p>
+                                </div>
+                                <div class="rating">
+                                    <p class="material-icons orange-text">star</p>
+                                    <span>4/5</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col s7 l3">
+                    <div class="card new">
+                        <div class="card-image newimg">
+                            <img src="/images/brooke-lark-HjWzkqW1dgI-unsplash.jpg">
+
+                        </div>
+                        <div class="act">
+                            <div class="card-action">
+                                <p class="break truncate">Fresh Juice </p>
+                            </div>
+                            <div class="card-footer">
+                                <div>
+                                    <p class="">$250/kg</p>
+                                </div>
+                                <div class="rating">
+                                    <p class="material-icons orange-text">star</p>
+                                    <span>4/5</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col s7 l3">
+                    <div class="card new">
+                        <div class="card-image newimg">
+                            <img src="/images/brooke-lark-HjWzkqW1dgI-unsplash.jpg">
+
+                        </div>
+                        <div class="act">
+                            <div class="card-action">
+                                <p class="break truncate">Fresh Juice </p>
+                            </div>
+                            <div class="card-footer">
+                                <div>
+                                    <p class="">$250/kg</p>
+                                </div>
+                                <div class="rating">
+                                    <p class="material-icons orange-text">star</p>
+                                    <span>4/5</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col s7 l3">
+                    <div class="card new">
+                        <div class="card-image newimg">
+                            <img src="/images/brooke-lark-HjWzkqW1dgI-unsplash.jpg">
+
+                        </div>
+                        <div class="act">
+                            <div class="card-action">
+                                <p class="break truncate">Fresh Juice </p>
+                            </div>
+                            <div class="card-footer">
+                                <div>
+                                    <p class="">$250/kg</p>
+                                </div>
+                                <div class="rating">
+                                    <p class="material-icons orange-text">star</p>
+                                    <span>4/5</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col s7 l3">
+                    <div class="card new">
+                        <div class="card-image newimg">
+                            <img src="/images/brooke-lark-HjWzkqW1dgI-unsplash.jpg">
+
+                        </div>
+                        <div class="act">
+                            <div class="card-action">
+                                <p class="break truncate">Fresh Juice </p>
+                            </div>
+                            <div class="card-footer">
+                                <div>
+                                    <p class="">$250/kg</p>
+                                </div>
+                                <div class="rating">
+                                    <p class="material-icons orange-text">star</p>
+                                    <span>4/5</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="sectipn">
+        <div class="row">
+            <div class="col s6">
+                <div class="card product">
+                    <div class="card-image">
+                        <img src="/images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col s6">
+                <div class="card product">
+                    <div class="card-image">
+                        <img src="/images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Gitter Chat Link -->
+    <div class="fixed-action-btn"><a class="btn-floating btn-large red" href=""><i class="large material-icons">chat</i></a></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+            var elems = document.querySelectorAll('.sidenav');
+            var navs = document.querySelectorAll('.navbar-fixed ');
+
+
+            var elems1 = document.querySelectorAll('.carousel.carousel-slider');
+
+
+
+            var instance1 = M.Carousel.init(elems1, {
+                fullWidth: true,
+                indicators: true
+            });
+            var instances = M.Sidenav.init(elems, {
+                edge: 'left',
+            });
+
+            function moveNext() {
+                var elems1 = document.querySelectorAll('.carousel.carousel-slider');
+                var moveRight = M.Carousel.getInstance(elems1);
+                moveRight.next(1);
+            }
+        })
+    </script>
+    <script>
+        // nav
+        let scrolled = () => {
+            let dec = 10;
+            return dec
+        }
+        var lastScrollTop = 0;
+        var navbar = document.getElementById("navbar");
+        window.addEventListener("scroll", function() {
+                navbar.style.setProperty('background', scrolled() > 50 ? "#000000" : "#asasas")
+                var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                if (scrollTop > lastScrollTop) {
+                    navbar.style.top = "-100px";
+
+                } else {
+                    navbar.style.top = "0";
+
+                }
+                lastScrollTop = scrollTop;
+            })
+            // nav
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
+            var options = {
+                data: {
+                    "google": null,
+                    "yahoo": null,
+                    "duckduckgo": null,
+                    "goole": null,
+                    "yahoo": null,
+                    "duckdckgo": null,
+                    "gogle": null,
+                    "yahoo": null,
+                    "duckuckgo": null,
+                    "gooe": null,
+                    "yahoo": null,
+                    "duckdgo": null
+                }
+            }
+
+
+
+            var elems = document.querySelectorAll('.autocomplete');
+            var instances = M.Autocomplete.init(elems, options);
+
+
+        });
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    background: tomato!important;
+    padding: 1rem 3rem!important;
+}
+
+.navbar-link {
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav-item {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.grad-bar {
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: gradbar 15s ease infinite;
+    -moz-animation: gradbar 15s ease infinite;
+    animation: gradbar 15s ease infinite;
+}
+
+@keyframes gradbar {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
